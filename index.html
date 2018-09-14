@@ -75,7 +75,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading">
+                        <b>About Me</b>
+                    </h2>
                 </div>
                 <div class="col-md-8">
                     <p>
@@ -96,14 +98,16 @@
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+        <h2 class="heading">
+            <b>Experience</b>
+        </h2>
         <div id="experience-timeline">
             <div data-date="March 2015 – June 2017">
                 <h3>ThinkBridge Software</h3>
                 <h4>Software Engineer</h4>
                 <p>
                     <ul>
-                        <li>Designing and developing of scalablel web applications.</li>
+                        <li>Designing and developing of scalable web applications.</li>
                         <li>Primary focus was on designing and developing responsive UI using AngularJs, HTML5, CSS3 and Bootstrap.</li>
                         <li>Built and delivered the popular Talent Acquisition Platform
                             <a href="https://talentcube.io/" target="_blank">TalentCube</a>.
@@ -126,7 +130,9 @@
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading">
+            <b>Education</b>
+        </h2>
         <div class="education-block">
             <h3>The University of Texas at Arlington</h3>
             <span class="education-date">August 2017 - Present</span>
@@ -157,9 +163,17 @@
             <h4>Bachelor of Engineering</h4>
             <ul>
                 <li>
-                    Majoring in Computer Science
+                    Major in Computer Science
                 </li>
             </ul>
+            <section>
+                <h4 class="education-block-sub-heading">Activities</h4>
+                <ul>
+                    <li>
+                        Coordinated technical and non-technical events at the National Level Festival at Undergraduate college.
+                    </li>
+                </ul>
+            </section>
             <section>
                 <h4 class="education-block-sub-heading">Achievements</h4>
                 <ul>
@@ -170,9 +184,6 @@
                         Published a research paper entitled “Data Tampering Detection Using Tiled Bitmap Algorithm” in IJERT (International Journal
                         of Engineering Research & Technology), Vol. 3, Issue 2 (February, 2014)
                     </li>
-                    <li>
-                        Coordinated technical and non-technical events at the National Level Festival at Undergraduate college.
-                    </li>
                 </ul>
             </section>
         </div>
@@ -181,10 +192,27 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Professional Projects</h2>
+        <h2 class="heading">
+            <b>Projects</b>
+        </h2>
+        <section class="flex" style="margin-bottom: 2vh">
+
+            <div class="filter-wrap">
+                <div class="flex row">
+                    <div class="filter" data-filter=".professional">PROFESSIONAL</div>
+                    <div class="filter" data-filter=".academic">ACADEMIC</div>
+                </div>
+                <div class="float-bar">
+                    <div class="flex row">
+                        <div class="filter" data-filter=".professional">PROFESSIONAL</div>
+                        <div class="filter" data-filter=".academic">ACADEMIC</div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
+            <div class="row" id="mixItUp">
+                <div class="professional project shadow-large">
                     <div class="project-image">
                         <img src="images/talentcube.png" />
                     </div>
@@ -201,7 +229,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="professional project shadow-large">
                     <div class="project-image">
                         <img src="images/eroms.png" />
                     </div>
@@ -217,7 +245,7 @@
                     <!-- End .project-info -->
                 </div>
 
-                <div class="project shadow-large">
+                <div class="professional project shadow-large">
                     <div class="project-image">
                         <img src="images/zenoffice1.png" />
                     </div>
@@ -234,7 +262,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="professional project shadow-large">
                     <div class="project-image">
                         <img src="images/eroms.png" />
                     </div>
@@ -252,16 +280,8 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
-            </div>
-        </div>
-    </div>
 
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Academics Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
+                <div class="academic project shadow-large">
                     <div class="project-image">
                         <img src="images/uta.jpg" />
                     </div>
@@ -279,7 +299,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="academic project shadow-large">
                     <div class="project-image">
                         <img src="images/uta.jpg" />
                     </div>
@@ -296,7 +316,7 @@
                     <!-- End .project-info -->
                 </div>
 
-                <div class="project shadow-large">
+                <div class="mix academic project shadow-large">
                     <div class="project-image">
                         <img src="images/uta.jpg" />
                     </div>
@@ -313,7 +333,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="academic project shadow-large">
                     <div class="project-image">
                         <img src="images/uta.jpg" />
                     </div>
@@ -333,7 +353,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="academic project shadow-large">
                     <div class="project-image">
                         <img src="images/uta.jpg" />
                     </div>
@@ -357,7 +377,9 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading">
+            <b>Skills</b>
+        </h2>
         <ul>
             <li>AngularJs</li>
             <li>JavaScript</li>
@@ -431,7 +453,8 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
