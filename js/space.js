@@ -5,7 +5,7 @@ function floatySpace() {
     "#FF3F8E", "#08e8de", "#2E55C1"
   ];
 
-  space = new CanvasSpace("canvas", "#020303" ).display();
+  space = new CanvasSpace("canvas", "#252934" ).display(); //020303
   var form = new Form( space );
 
   // Elements
@@ -44,7 +44,7 @@ function floatySpace() {
         var distFromMouse = Math.abs(ln.getDistanceFromPoint(mouse))
 
         if (distFromMouse < 50) {
-          if (pts[i].brightness < 0.3) pts[i].brightness += 0.015
+          if (pts[i].brightness < 0.6) pts[i].brightness += 0.015
         } else {
           if (pts[i].brightness > 0.1) pts[i].brightness -= 0.01
         }
